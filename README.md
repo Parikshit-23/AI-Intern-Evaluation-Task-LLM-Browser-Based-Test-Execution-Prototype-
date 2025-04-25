@@ -118,7 +118,7 @@ Used Playwright to perform that task on live site
 
 ---
 
-## Bonus: Self-Healing Logic (Planned)
+## Bonus: Self-Healing Logic
 **To make the automation more robust, these enhancements are planned:**
 
 Retry failed steps with alternate selectors
