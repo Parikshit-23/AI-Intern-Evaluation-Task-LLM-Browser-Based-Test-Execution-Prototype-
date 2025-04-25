@@ -24,7 +24,9 @@ The script takes a test case in natural language and automates the process of:
 ## Python libraries required
 ```bash
 pip install openai
+```bash
 pip install playwright
+```bash
 pip install json
 ```
 
@@ -49,6 +51,7 @@ pip install json
 ### Example Prompt Sent to LLM:
 
 ```plaintext
+Prompt:
 You are an automation assistant. Convert these steps into a valid JSON array 
 of browser commands. ONLY return valid JSON — do not explain anything.
 
