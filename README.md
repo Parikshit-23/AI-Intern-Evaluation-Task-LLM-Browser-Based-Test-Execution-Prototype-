@@ -24,8 +24,10 @@ The script takes a test case in natural language and automates the process of:
 ## Python libraries required
 ```bash
 pip install openai
+```
 ```bash
 pip install playwright
+```
 ```bash
 pip install json
 ```
