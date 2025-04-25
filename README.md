@@ -70,7 +70,7 @@ Example Output:
   {"action": "type", "target": "input[type='password']", "value": "test123"},
   {"action": "click", "target": "button:has-text('Sign in')"}
 ]
-
+```
 ---
 
 ## Execution and Validation Logic
@@ -102,7 +102,7 @@ Example Output:
 ---
 
 ## Challenges and How They Were Solved
-** Problem 1: LLM returned invalid or non-parsable JSON**
+**Problem 1: LLM returned invalid or non-parsable JSON**
 Solution:
 
 Used Claude 3 Haiku, which is known to return clean JSON.
@@ -111,7 +111,7 @@ Stripped Markdown formatting (like ```json).
 
 Added json.loads() error checks and print() for debugging.
 
-** Problem 2: Unable to use Browser-Use to execute steps on live site**
+**Problem 2: Unable to use Browser-Use to execute steps on live site**
 Solution:
 
 Used Playwright to perform that task on live site
@@ -119,7 +119,7 @@ Used Playwright to perform that task on live site
 ---
 
 ## Bonus: Self-Healing Logic (Planned)
-To make the automation more robust, these enhancements are planned:
+**To make the automation more robust, these enhancements are planned:**
 
 Retry failed steps with alternate selectors
 
