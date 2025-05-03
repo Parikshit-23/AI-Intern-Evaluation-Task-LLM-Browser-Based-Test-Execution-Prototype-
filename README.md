@@ -1,7 +1,7 @@
 # AI-Intern-Evaluation-Task-LLM-Browser-Based-Test-Execution-Prototype
 # AI-Powered Browser Automation for Web Testing
 
-This project demonstrates an AI-driven browser automation system built for an internship task using:
+This project demonstrates an AI-driven browser automation system built using:
 
 -  Large Language Model (LLM) for step parsing (Claude 3 Haiku via OpenRouter)
 -  Real browser automation using Playwright
